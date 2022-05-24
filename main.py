@@ -17,15 +17,9 @@ button=left_column.button('右カラムに先生を紹介')
 if button:
     right_colum.write('(偽名)西方　剛弁護士')
     right_colum.write('(偽名)佐々木　未来弁護士')
-    expander=st.beta_expander('西方先生へのお問い合わせ、詳細はこちら')
+    expander=st.expander('西方先生へのお問い合わせ、詳細はこちら')
     expander.write('料金説明：30分5000円　初回のみ無料')
     expander.write('相談内容：不倫関係、相続関係')
-    expander1=st.beta_expander('佐々木先生へのお問い合わせ、詳細はこちら')
+    expander1=st.expander('佐々木先生へのお問い合わせ、詳細はこちら')
     expander1.write('料金説明：30分5000円（税抜き）初回のみ半額サービス')
     expander1.write('パラリーガルから見た先生の印象：美人でしっかりと話を聞いてくれますので気軽にご相談できると思います。')
-
-#     text=st.text_input('あなたの趣味を教えてください')
-#     condtion=st.slider('あなたの今の調子は？',0,100,50)
-# st.map(df)
-# 'あなたの趣味は、',text
-# 'コンディション:',condtion
