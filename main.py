@@ -12,7 +12,7 @@ for i in range(100):
     time.sleep(0.03)
 '検索終了'
 
-left_column,right_colum=st.beta_columns(2)
+left_column,right_colum=st.columns(2)
 button=left_column.button('右カラムに先生を紹介')
 if button:
     right_colum.write('(偽名)西方　剛弁護士')
